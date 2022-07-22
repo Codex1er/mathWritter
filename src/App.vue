@@ -3,14 +3,14 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import headtitle from './components/headtitle.vue'
 import intitle from './components/intitle.vue'
-
+import textzone from './components/textzone.vue'
 </script>
 
 <template>
   <div id="wrapper">
     <headtitle title="Mon devoir de math" name="tatan"  date="ven 22 juillet"/>
     <intitle title="Problème de Math" power="1"></intitle>
-    
+    <textzone text="Alors ici on va faire ceci puis cela et encore cela . Ca va vous suivez? "></textzone>
   </div>
 </template>
 
