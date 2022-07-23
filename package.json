@@ -12,7 +12,9 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.2.0",
-    "vue": "^3.2.37"
+    "mathjax": "^3.2.2",
+    "vue": "^3.2.37",
+    "vue-mathjax-next": "^0.0.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",
