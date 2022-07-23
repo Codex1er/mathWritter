@@ -1,5 +1,5 @@
 A faire graphiquement
+Le tableau d'entrée
 Le sommaire des titres
-zone de texte
 tableau de variables
 solution

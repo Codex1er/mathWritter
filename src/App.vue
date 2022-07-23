@@ -13,8 +13,8 @@ import mathzone from './components/mathzone.vue'
     <headtitle title="Mon devoir de math" name="tatan"  date="ven 22 juillet"/>
     <intitle title="Problème de Math" power="1"></intitle>
     <textzone text="Alors ici on va faire ceci puis cela et encore cela . Ca va vous suivez? "></textzone>
-    <mathzone latex="x**2+y**2=1"></mathzone>
-    <mathzone latex="x**2+y**2=2"></mathzone>
+    <mathzone class="math" latex="x**2+y**2=1"></mathzone>
+    <mathzone class="math" latex="x**2+y**2=2"></mathzone>
 
     <div id="console">
       Enter : <textarea name="name" rows="1" cols="80"></textarea>
@@ -39,7 +39,10 @@ import mathzone from './components/mathzone.vue'
     position: fixed;
     display: block;
     bottom: 0.5em;
-    width: 80em
+    width: 80em;
+    background-color: white;
+    padding: 0.5em;
+    margin: auto
 
   }
   textarea {
